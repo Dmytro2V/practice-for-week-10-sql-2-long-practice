@@ -1,10 +1,12 @@
-PRAGMA foreign_keys=on; -- Turns foreign key support in SQLite3 on
+PRAGMA foreign_keys=on; 
+-- Turns foreign key support in SQLite3 on
 -- Your code here
 
-DROP TABLE IF EXISTS cats;
-DROP TABLE IF EXISTS owners;
+
 DROP TABLE IF EXISTS toys;
 DROP TABLE IF EXISTS cat_owners;
+DROP TABLE IF EXISTS cats;
+DROP TABLE IF EXISTS owners;
 
 
 CREATE TABLE cats (
